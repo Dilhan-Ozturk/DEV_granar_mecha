@@ -1,0 +1,65 @@
+Metadata-Version: 2.4
+Name: granap
+Version: 0.1.dev49+g50610fc54
+Summary: Todo
+Author-email: Adrien Heymans <tristan.gerault@uclouvain.be>
+License-Expression: CECILL-C
+Project-URL: Repository, https://github.com/MECHARoot/GRANAP
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Framework :: PEPA
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: nbmake; extra == "test"
+Provides-Extra: dev
+Requires-Dist: pytest>=6; extra == "dev"
+Requires-Dist: pytest-cov>=3; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: pydata-sphinx-theme; extra == "doc"
+Requires-Dist: myst-parser; extra == "doc"
+Requires-Dist: sphinx-favicon; extra == "doc"
+Requires-Dist: ipykernel; extra == "doc"
+Requires-Dist: sphinx-copybutton; extra == "doc"
+Requires-Dist: ipython_genutils; extra == "doc"
+Requires-Dist: nbsphinx; extra == "doc"
+Dynamic: license-file
+
+# GRANAR package translated in Python
+
+## Installation
+
+In GRANAP root directory, install the environment with
+```bash
+mamba create -f ./conda/environment.yaml -y
+mamba activate granap 
+```
+
+For source to be recognized in the environment, run the following at the root of the GRANAP directory
+```bash
+pip install -e . 
+```
+
+Warning : 
+- Intercellular space are not well implemented
+- There is a problem for the polygon creation
+
+## Code structure
+
+For an interactive browsing, use the following link: 
+
+Bellow is a preview
+![Call graph](doc/callgraph/preview.svg)
