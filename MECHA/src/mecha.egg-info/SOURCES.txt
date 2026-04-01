@@ -1,0 +1,117 @@
+.gitignore
+LICENSE
+README.md
+TODO.txt
+pyproject.toml
+.github/workflows/conda-package-build.yml
+conda/environment.yaml
+conda/meta.yaml
+docs/mecha_logo.png
+extdata/BCs.xml
+extdata/General.xml
+extdata/Geometry.xml
+extdata/Hormones.xml
+extdata/Hydraulics.xml
+extdata/current_root.xml
+simulations/main/workbook.ipynb
+simulations/main/inputs/BCs.xml
+simulations/main/inputs/General.xml
+simulations/main/inputs/Geometry.xml
+simulations/main/inputs/Hormones.xml
+simulations/main/inputs/Hydraulics.xml
+simulations/main/inputs/current_root.xml
+simulations/main/inputs/cellsetdata/PG_test_old.xml
+simulations/main/inputs/cellsetdata/SG_test_old.xml
+simulations/main/inputs/cellsetdata/current_root.xml
+simulations/main/inputs/cellsetdata/maize_root_granar.xml
+simulations/main/inputs/cellsetdata/sorghum_7cm.xml
+simulations/tutorials/anatomy.xml
+simulations/tutorials/mecha_tutorial_01_kr.ipynb
+simulations/tutorials/mecha_tutorial_02_bnd_cond.ipynb
+simulations/tutorials/mecha_tutorial_03_hormones.ipynb
+simulations/tutorials/mecha_tutorial_04_visual.ipynb
+simulations/tutorials/mecha_tutorial_05.ipynb
+simulations/tutorials/inputs/current_root.xml
+simulations/tutorials/test/test.py
+simulations/tutorials/test/test2.py
+simulations/tutorials/test/verify_build_matrices.py
+simulations/tutorials/tutorial_data/Arabidopsis.xml
+simulations/tutorials/tutorial_data/PG_test_old.xml
+simulations/tutorials/tutorial_data/SG_test_old.xml
+simulations/tutorials/tutorial_data/current_root.xml
+simulations/tutorials/tutorial_data/maize_root_granar.xml
+simulations/tutorials/tutorial_data/sorghum_7cm.xml
+src/__pycache__/mecha_class.cpython-313.pyc
+src/mecha/MECHA.py
+src/mecha/__init__.py
+src/mecha/functions.py
+src/mecha/hydraulic_solver.py
+src/mecha/main.py
+src/mecha/main_nov.py
+src/mecha/mecha_class.py
+src/mecha.egg-info/PKG-INFO
+src/mecha.egg-info/SOURCES.txt
+src/mecha.egg-info/dependency_links.txt
+src/mecha.egg-info/requires.txt
+src/mecha.egg-info/top_level.txt
+src/mecha/utils/data_loader.py
+src/mecha/utils/network_builder.py
+src/mecha/utils/prepare_paraview.py
+src/mecha/utils/visu.py
+src_old/1_MECHAv4_light_2019.py
+src_old/2_MECHAv4_UniXwalls.py
+src_old/3_MECHAv4_Ana_solute_3D 1.py
+src_old/4_MECHAv4_septa_temp 2.py
+src_old/5_MECHAv4_TRoot.py
+src_old/6_MECHAv4_SRS2025.py
+src_old/7_MECHAv4_4Dsolute_assymetry_endo 2.py
+src_old/Projects/GRANAR/in/BCs.xml
+src_old/Projects/GRANAR/in/General.xml
+src_old/Projects/GRANAR/in/Geometry.xml
+src_old/Projects/GRANAR/in/Hormones.xml
+src_old/Projects/GRANAR/in/Hydraulics.xml
+src_old/Projects/GRANAR/in/Maize_BC_kr.xml
+src_old/Projects/GRANAR/in/Maize_Geometry - Copie.xml
+src_old/Projects/GRANAR/in/Maize_Geometry_BU.xml
+src_old/Projects/GRANAR/in/Maize_Geometry_aer.xml
+src_old/Projects/GRANAR/in/Tomato_BC.xml
+src_old/Projects/GRANAR/in/Tomato_General.xml
+src_old/Projects/GRANAR/in/Tomato_Geometry.xml
+src_old/Projects/GRANAR/in/Tomato_Hormones_Carriers.xml
+src_old/Projects/GRANAR/in/Tomato_Hydraulics.xml
+src_old/Projects/GRANAR/out/Root/Project_Test/baseline/Macro_prop_1,0 - Copie.txt
+src_old/Projects/GRANAR/out/Root/Project_Test/baseline/Macro_prop_1,0.txt
+src_old/Projects/GRANAR/out/Root/Project_Test/baseline/Macro_prop_3,1 - Copie.txt
+src_old/Projects/GRANAR/out/Root/Project_Test/baseline/Macro_prop_3,1.txt
+src_old/Projects/GRANAR/out/Root/Project_Test/baseline/position - Copie.txt
+src_old/Projects/GRANAR/out/Root/Project_Test/baseline/position.txt
+src_old/Projects/maize_granar/in/BC.xml
+src_old/Projects/maize_granar/in/BC_No_Os_grad.xml
+src_old/Projects/maize_granar/in/BC_kr.xml
+src_old/Projects/maize_granar/in/General.xml
+src_old/Projects/maize_granar/in/Geometry.xml
+src_old/Projects/maize_granar/in/Hormones_Carriers.xml
+src_old/Projects/maize_granar/in/Hydraulics.xml
+src_old/Projects/maize_granar/out/M1v4/Root/Project_Test/results/Macro_prop_1,0 - Copie.txt
+src_old/Projects/maize_granar/out/M1v4/Root/Project_Test/results/Macro_prop_1,0.txt
+src_old/Projects/maize_granar/out/M1v4/Root/Project_Test/results/Macro_prop_2,1 - Copie.txt
+src_old/Projects/maize_granar/out/M1v4/Root/Project_Test/results/Macro_prop_2,1.txt
+src_old/Projects/maize_granar/out/M1v4/Root/Project_Test/results/Macro_prop_4,2 - Copie.txt
+src_old/Projects/maize_granar/out/M1v4/Root/Project_Test/results/Macro_prop_4,2.txt
+src_old/Projects/maize_granar/out/M1v4/Root/Project_Test/results/position - Copie.txt
+src_old/Projects/maize_granar/out/M1v4/Root/Project_Test/results/position.txt
+src_old/Projects/test/in/BC.xml
+src_old/Projects/test/in/General.xml
+src_old/Projects/test/in/Geometry.xml
+src_old/Projects/test/in/Hormones_Carriers.xml
+src_old/Projects/test/in/Hydraulics.xml
+src_old/cellsetdata/current_root.xml
+test/test_boundary.py
+test/test_ganache.py
+test/test_maturity.py
+test/test_mtg.py
+test/test_root_size.py
+test/utils.py
+test/inputs/current_root.xml
+test/inputs/current_root2.xml
+test/inputs/current_root5.xml

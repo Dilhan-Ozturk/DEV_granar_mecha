@@ -1,0 +1,24 @@
+name: mecha
+channels:
+  - conda-forge
+  - openalea3
+channel_priority: strict
+dependencies:
+  - python
+  - pip
+  - pytest
+  - numpy
+  - scipy
+  - ipykernel
+  - networkx
+  - lxml
+  - geopandas
+  - matplotlib # bundles pylab
+  - shapely
+  - opencv
+  - openalea.mtg
+  - pyan3 
+  - graphviz 
+  - python-graphviz
+  - pip:
+    - "-e ..[doc]"
