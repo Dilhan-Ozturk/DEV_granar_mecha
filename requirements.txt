@@ -1,0 +1,11 @@
+geopandas
+ipykernel
+lxml
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
+shapely
+opencv
+networkx
